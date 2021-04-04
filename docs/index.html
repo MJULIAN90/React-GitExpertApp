@@ -18,6 +18,7 @@
     <title>GIF EXPERT</title>
     <link href="./static/css/main.efc2ea8d.chunk.css" rel="stylesheet" />
   </head>
+
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
@@ -39,6 +40,7 @@
           for (f && f(t); s.length; ) s.shift()();
           return u.push.apply(u, a || []), r();
         }
+
         function r() {
           for (var e, t = 0; t < u.length; t++) {
             for (var r = u[t], n = !0, i = 1; i < r.length; i++) {
@@ -50,24 +52,38 @@
           return e;
         }
         var n = {},
-          o = { 1: 0 },
+          o = {
+            1: 0,
+          },
           u = [];
+
         function p(t) {
           if (n[t]) return n[t].exports;
-          var r = (n[t] = { i: t, l: !1, exports: {} });
+          var r = (n[t] = {
+            i: t,
+            l: !1,
+            exports: {},
+          });
           return e[t].call(r.exports, r, r.exports, p), (r.l = !0), r.exports;
         }
         (p.m = e),
           (p.c = n),
           (p.d = function (e, t, r) {
             p.o(e, t) ||
-              Object.defineProperty(e, t, { enumerable: !0, get: r });
+              Object.defineProperty(e, t, {
+                enumerable: !0,
+                get: r,
+              });
           }),
           (p.r = function (e) {
             "undefined" != typeof Symbol &&
               Symbol.toStringTag &&
-              Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }),
-              Object.defineProperty(e, "__esModule", { value: !0 });
+              Object.defineProperty(e, Symbol.toStringTag, {
+                value: "Module",
+              }),
+              Object.defineProperty(e, "__esModule", {
+                value: !0,
+              });
           }),
           (p.t = function (e, t) {
             if ((1 & t && (e = p(e)), 8 & t)) return e;
@@ -75,7 +91,10 @@
             var r = Object.create(null);
             if (
               (p.r(r),
-              Object.defineProperty(r, "default", { enumerable: !0, value: e }),
+              Object.defineProperty(r, "default", {
+                enumerable: !0,
+                value: e,
+              }),
               2 & t && "string" != typeof e)
             )
               for (var n in e)
@@ -112,7 +131,7 @@
         r();
       })([]);
     </script>
-    <script src="/static/js/2.90d40458.chunk.js"></script>
-    <script src="/static/js/main.de29e0c2.chunk.js"></script>
+    <script src="./static/js/2.90d40458.chunk.js"></script>
+    <script src="./static/js/main.de29e0c2.chunk.js"></script>
   </body>
 </html>
